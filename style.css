@@ -1,7 +1,7 @@
 body{
     background-color: rgb(169, 207, 246);
     overflow-x: hidden;
-    margin: 0px;
+    margin: -5px;
 }
 .bigcontainer{
   width:max-content;
