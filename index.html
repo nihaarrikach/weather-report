@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <script src="./app.bundle.js"></script>
+    <div class="container">
+        <h1>Weatherizer</h1>
+    </div>
+    <div class="bigcontainer">
+        <img src="bg weather app.jpeg" alt="">
+        <div class="container one">
+            <form>
+                <div class="form-group"><input type="text" class="form-control inputcity" id="city" placeholder="city" onblur="getVal()"><button
+                        type="button" class="btn btn-primary" id="btn" onclick="input()">Check!</button></div>
+            </form>
+        </div>
+        <div class="container two" id="container">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title" id="card-title"></h5>
+                    <h6 class="card-subtitle mb-2" id="currenttemp"></h6>
+                    <p class="card-text" id="feeltemp"></p>
+                    <p class="card-text" id="maxmin"></p>
+                    <p class="card-text" id="humidity"></p>
+                    <!-- <div id="img-container"><img src=""></div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
