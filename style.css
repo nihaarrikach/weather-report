@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(169, 207, 246);
+    overflow-x: hidden;
+    margin: 0px;
+}
+.bigcontainer{
+  width:max-content;
+     padding: 10px;
+     margin: auto;
+
+ }
+ .bigcontainer img{
+    width: 380px;
+    height: 500px;
+    opacity: .4;
+    border-radius: 10px;
+ }
+ .container h1{
+     text-align: center;
+     font-family: 'Times New Roman', Times, serif;
+ font-weight:normal;
+ font-size: 40px;
+ }
+ 
+ #city{
+     font-size: 20px;
+     border: .5px solid black;
+     border-radius: 5px;
+     width: 17rem;
+     padding: 10px;
+ }
+ #radio-group{
+     display: flex;
+ 
+ 
+ }
+ .form-check{
+     font-size:15px;
+     font-family: sans-serif;
+    
+ }
+ #btn{
+     border: 0ch;
+     background-color: transparent;
+     margin-left: 10px;
+     font-size: 15px;
+     font-weight: bold;
+     right: 10px;
+     position: relative;
+ }
+ #btn:hover{
+     background-color: rgb(48, 48, 48);
+     color: white;
+ border-radius: 5px;
+ cursor: pointer;
+ }
+ 
+ .form-group {
+     display: flex;
+     flex-direction: row;
+ }
+ 
+ .form-group {
+     margin-bottom: 1rem;
+ }
+ .card-title{
+  font-size: 30px;
+  font-weight:normal;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+.card-subtitle{
+  font-size: 20px;
+  font-weight: lighter;
+}
+.card-text{
+  line-height: 30px;
+}
+
+#feeltemp{
+    font-size: 18px;
+}
+
+#maxmin{
+    font-size: 18px;
+}
+#humidity{
+    font-size: 18px;
+}
+.one{
+    position: relative;
+    bottom:450px;
+    margin-left: 20px;
+}
+.two{
+    position: relative;
+    bottom: 400px;
+    margin-left: 20px;
+}
